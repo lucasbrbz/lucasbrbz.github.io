@@ -1,0 +1,34 @@
+.centralized {
+    justify-content: center;
+    text-align: center;
+}
+
+ul:not(.generic) {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li:not(.generic) {
+    float: left;
+}
+
+li a:not(.generic) {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Bebas Neue;
+}
+
+li a:hover:not(.generic) {
+    background-color: lightgrey;
+}
+
+body {
+    color: white;
+    background-color: black; 
+}
